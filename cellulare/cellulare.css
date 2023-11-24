@@ -1,0 +1,24 @@
+main {
+  background-color: #efeeec;
+}
+.divtesto {
+  top: 100px;
+}
+.contatti {
+  top: 150px;
+  height: 416px;
+  overflow: auto;
+  width: 213px;
+  margin-left: 5px;
+}
+.principale {
+  overflow: hidden;
+  /* height: 418px; */
+}
+.imgavatar {
+  width: 50px;
+  border-radius: 50%;
+}
+/* .contatti::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+/* }  */
