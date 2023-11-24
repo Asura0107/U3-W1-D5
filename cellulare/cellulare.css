@@ -6,7 +6,7 @@ main {
 }
 .contatti {
   top: 150px;
-  height: 416px;
+  height: 412px;
   overflow: auto;
   width: 213px;
   margin-left: 5px;
@@ -22,6 +22,12 @@ main {
 .name {
   cursor: pointer;
 }
-/* .contatti::-webkit-scrollbar {
-  width: 12px; /* Set the width of the scrollbar */
-/* }  */
+::-webkit-scrollbar {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(78, 76, 76);
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
