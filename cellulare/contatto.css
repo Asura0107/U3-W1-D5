@@ -1,0 +1,10 @@
+main {
+  background-color: #efeeec;
+}
+.contatti {
+  top: 150px;
+  height: 416px;
+  overflow: auto;
+  width: 213px;
+  margin-left: 5px;
+}
