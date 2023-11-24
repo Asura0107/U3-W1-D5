@@ -2,9 +2,16 @@ main {
   background-color: #efeeec;
 }
 .contatti {
-  top: 150px;
+  top: 100px;
   height: 416px;
   overflow: auto;
   width: 213px;
   margin-left: 5px;
+}
+.imgprof {
+  width: 210px;
+}
+.inferior {
+  background-color: #d2d2d287;
+  border-radius: 10px;
 }

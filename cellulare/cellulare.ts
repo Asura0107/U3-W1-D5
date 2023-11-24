@@ -1,4 +1,4 @@
-fetch("https://6560896283aba11d99d1062b.mockapi.io/name")
+fetch("https://6560b15683aba11d99d159bf.mockapi.io/phone")
   .then((resp) => resp.json())
   .then((numbers) => {
     console.log(numbers);
