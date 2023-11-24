@@ -12,8 +12,13 @@ fetch("https://6560b15683aba11d99d159bf.mockapi.io/phone/" + id)
     var chiamate = document.querySelector(".chiamate");
     namediv.innerText = numbers.name;
     var img = document.createElement("img");
-    img.src =
-        "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png";
+    if (numbers.genere === "maschio") {
+        img.src =
+            "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png";
+    }
+    else {
+        img.src = "https://cdn-icons-png.flaticon.com/512/6872/6872932.png";
+    }
     img.classList.add("imgprof");
     info.innerHTML = "<div class=\"d-flex align-items-baseline\"><i class=\"fas fa-phone-alt me-3\"></i><p>".concat(numbers.phoneNumber, "</p></div>");
     chiamate.innerHTML = "<div class=\"d-flex flex-column\">\n    <p>Chiamate in uscita: ".concat(numbers.chiamateEffetuate, "</p>\n    <p>Chiamate in entrata: ").concat(numbers.chiamateRicevute, "</p>\n    </div>");
